@@ -1,0 +1,23 @@
+---
+vi:
+  tags:
+    create:
+      created: Thẻ đã được tạo
+      error: 'Lỗi khi tạo thẻ: %{error}'
+    destroy:
+      deleted: Thẻ đã được xóa
+    edit:
+      edit: Chỉnh sửa thẻ
+    form:
+      placeholder: Tên thẻ
+    index:
+      empty: Chưa có thẻ
+      new: Thẻ mới
+      tags: Thẻ
+    new:
+      new: Thẻ mới
+    tag:
+      delete: Xóa
+      edit: Chỉnh sửa
+    update:
+      updated: Thẻ đã được cập nhật

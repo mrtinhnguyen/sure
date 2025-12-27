@@ -1,0 +1,15 @@
+---
+vi:
+  impersonation_sessions:
+    approve:
+      success: Yêu cầu đã được phê duyệt
+    complete:
+      success: Phiên đã hoàn tất
+    create:
+      success: Yêu cầu đã được gửi đến người dùng. Đang chờ phê duyệt.
+    join:
+      success: Đã tham gia phiên
+    leave:
+      success: Đã rời phiên
+    reject:
+      success: Yêu cầu đã bị từ chối

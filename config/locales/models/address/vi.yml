@@ -1,0 +1,11 @@
+---
+vi:
+  address:
+    attributes:
+      country: Quốc gia
+      line1: Dòng địa chỉ 1
+      line2: Dòng địa chỉ 2
+      locality: Địa phương
+      postal_code: Mã bưu điện
+      region: Vùng
+    format: "%{line1} %{line2}, %{locality}, %{region} %{postal_code} %{country}"

@@ -1,0 +1,143 @@
+---
+vi:
+  lunchflow_items:
+    create:
+      success: Kết nối Lunch Flow đã được tạo thành công
+    destroy:
+      success: Kết nối Lunch Flow đã được xóa
+    index:
+      title: Kết nối Lunch Flow
+    loading:
+      loading_message: Đang tải tài khoản Lunch Flow...
+      loading_title: Đang tải
+    link_accounts:
+      all_already_linked:
+        one: "Tài khoản đã chọn (%{names}) đã được liên kết"
+        other: "Tất cả %{count} tài khoản đã chọn đã được liên kết: %{names}"
+      api_error: "Lỗi API: %{message}"
+      invalid_account_names:
+        one: "Không thể liên kết tài khoản với tên trống"
+        other: "Không thể liên kết %{count} tài khoản với tên trống"
+      link_failed: Không thể liên kết tài khoản
+      no_accounts_selected: Vui lòng chọn ít nhất một tài khoản
+      partial_invalid: "Đã liên kết thành công %{created_count} tài khoản, %{already_linked_count} đã được liên kết, %{invalid_count} tài khoản có tên không hợp lệ"
+      partial_success: "Đã liên kết thành công %{created_count} tài khoản. %{already_linked_count} tài khoản đã được liên kết: %{already_linked_names}"
+      success:
+        one: "Đã liên kết thành công %{count} tài khoản"
+        other: "Đã liên kết thành công %{count} tài khoản"
+    lunchflow_item:
+      accounts_need_setup: Tài khoản cần thiết lập
+      delete: Xóa kết nối
+      deletion_in_progress: đang xóa...
+      error: Lỗi
+      no_accounts_description: Kết nối này chưa có tài khoản liên kết nào.
+      no_accounts_title: Không có tài khoản
+      setup_action: Thiết lập Tài khoản Mới
+      setup_description: "%{linked} trong số %{total} tài khoản đã được liên kết. Chọn loại tài khoản cho các tài khoản Lunch Flow mới được nhập khẩu của bạn."
+      setup_needed: Tài khoản mới sẵn sàng để thiết lập
+      status: "Đã đồng bộ %{timestamp} trước"
+      status_never: Chưa bao giờ đồng bộ
+      status_with_summary: "Lần đồng bộ cuối %{timestamp} trước • %{summary}"
+      syncing: Đang đồng bộ...
+      total: Tổng
+      unlinked: Chưa liên kết
+    select_accounts:
+      accounts_selected: tài khoản đã chọn
+      api_error: "Lỗi API: %{message}"
+      cancel: Hủy
+      configure_name_in_lunchflow: Không thể nhập khẩu - vui lòng cấu hình tên tài khoản trong Lunchflow
+      description: Chọn các tài khoản bạn muốn liên kết với tài khoản %{product_name} của bạn.
+      link_accounts: Liên kết tài khoản đã chọn
+      no_accounts_found: Không tìm thấy tài khoản. Vui lòng kiểm tra cấu hình khóa API của bạn.
+      no_api_key: Khóa API Lunch Flow chưa được cấu hình. Vui lòng cấu hình nó trong Cài đặt.
+      no_name_placeholder: "(Không có tên)"
+      title: Chọn Tài khoản Lunch Flow
+    select_existing_account:
+      account_already_linked: Tài khoản này đã được liên kết với nhà cung cấp
+      all_accounts_already_linked: Tất cả tài khoản Lunch Flow đã được liên kết
+      api_error: "Lỗi API: %{message}"
+      cancel: Hủy
+      configure_name_in_lunchflow: Không thể nhập khẩu - vui lòng cấu hình tên tài khoản trong Lunchflow
+      description: Chọn tài khoản Lunch Flow để liên kết với tài khoản này. Giao dịch sẽ được đồng bộ và loại bỏ trùng lặp tự động.
+      link_account: Liên kết tài khoản
+      no_account_specified: Không có tài khoản được chỉ định
+      no_accounts_found: Không tìm thấy tài khoản Lunch Flow. Vui lòng kiểm tra cấu hình khóa API của bạn.
+      no_api_key: Khóa API Lunch Flow chưa được cấu hình. Vui lòng cấu hình nó trong Cài đặt.
+      no_name_placeholder: "(Không có tên)"
+      title: "Liên kết %{account_name} với Lunch Flow"
+    link_existing_account:
+      account_already_linked: Tài khoản này đã được liên kết với nhà cung cấp
+      api_error: "Lỗi API: %{message}"
+      invalid_account_name: Không thể liên kết tài khoản với tên trống
+      lunchflow_account_already_linked: Tài khoản Lunch Flow này đã được liên kết với tài khoản khác
+      lunchflow_account_not_found: Không tìm thấy tài khoản Lunch Flow
+      missing_parameters: Thiếu tham số bắt buộc
+      success: "Đã liên kết thành công %{account_name} với Lunch Flow"
+    setup_accounts:
+      account_type_label: "Loại Tài khoản:"
+      all_accounts_linked: "Tất cả tài khoản Lunch Flow của bạn đã được thiết lập."
+      api_error: "Lỗi API: %{message}"
+      fetch_failed: "Không thể Lấy Tài khoản"
+      no_accounts_to_setup: "Không có Tài khoản để Thiết lập"
+      no_api_key: "Khóa API Lunch Flow chưa được cấu hình. Vui lòng kiểm tra cài đặt kết nối của bạn."
+      account_types:
+        skip: Bỏ qua tài khoản này
+        depository: Tài khoản Vãng lai hoặc Tiết kiệm
+        credit_card: Thẻ tín dụng
+        investment: Tài khoản Đầu tư
+        loan: Khoản vay hoặc Thế chấp
+        other_asset: Tài sản khác
+      subtype_labels:
+        depository: "Loại phụ Tài khoản:"
+        credit_card: ""
+        investment: "Loại Đầu tư:"
+        loan: "Loại Khoản vay:"
+        other_asset: ""
+      subtype_messages:
+        credit_card: "Thẻ tín dụng sẽ được tự động thiết lập như tài khoản thẻ tín dụng."
+        other_asset: "Không cần tùy chọn bổ sung cho Tài sản khác."
+      subtypes:
+        depository:
+          checking: Vãng lai
+          savings: Tiết kiệm
+          hsa: Tài khoản Tiết kiệm Y tế
+          cd: Chứng chỉ Tiền gửi
+          money_market: Thị trường Tiền tệ
+        investment:
+          brokerage: Môi giới
+          pension: Lương hưu
+          retirement: Nghỉ hưu
+          "401k": "401(k)"
+          roth_401k: "Roth 401(k)"
+          "403b": "403(b)"
+          tsp: Kế hoạch Tiết kiệm Tiết kiệm
+          "529_plan": "Kế hoạch 529"
+          hsa: Tài khoản Tiết kiệm Y tế
+          mutual_fund: Quỹ Tương hỗ
+          ira: IRA Truyền thống
+          roth_ira: Roth IRA
+          angel: Angel
+        loan:
+          mortgage: Thế chấp
+          student: Khoản vay Sinh viên
+          auto: Khoản vay Ô tô
+          other: Khoản vay khác
+      balance: Số dư
+      cancel: Hủy
+      choose_account_type: "Chọn loại tài khoản đúng cho mỗi tài khoản Lunch Flow:"
+      create_accounts: Tạo Tài khoản
+      creating_accounts: Đang tạo Tài khoản...
+      historical_data_range: "Phạm vi Dữ liệu Lịch sử:"
+      subtitle: Chọn loại tài khoản đúng cho các tài khoản đã nhập khẩu của bạn
+      sync_start_date_help: Chọn bạn muốn đồng bộ lịch sử giao dịch bao xa về trước. Tối đa 3 năm lịch sử có sẵn.
+      sync_start_date_label: "Bắt đầu đồng bộ giao dịch từ:"
+      title: Thiết lập Tài khoản Lunch Flow của Bạn
+    complete_account_setup:
+      all_skipped: "Tất cả tài khoản đã được bỏ qua. Không có tài khoản nào được tạo."
+      creation_failed: "Không thể tạo tài khoản: %{error}"
+      no_accounts: "Không có tài khoản để thiết lập."
+      success: "Đã tạo thành công %{count} tài khoản."
+    sync:
+      success: Đồng bộ đã bắt đầu
+    update:
+      success: Kết nối Lunch Flow đã được cập nhật

@@ -1,0 +1,21 @@
+---
+vi:
+  activerecord:
+    attributes:
+      account:
+        balance: Số dư
+        currency: Tiền tệ
+        family: Gia đình
+        family_id: Gia đình
+        name: Tên
+        subtype: Loại phụ
+    models:
+      account: Tài khoản
+      account/credit: Thẻ tín dụng
+      account/depository: Tài khoản ngân hàng
+      account/investment: Đầu tư
+      account/loan: Khoản vay
+      account/other_asset: Tài sản khác
+      account/other_liability: Nợ khác
+      account/property: Bất động sản
+      account/vehicle: Phương tiện

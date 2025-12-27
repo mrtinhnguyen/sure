@@ -1,0 +1,6 @@
+---
+vi:
+  chats:
+    demo_banner_title: "Chế độ Demo đang hoạt động"
+    demo_banner_message: "Bạn đang sử dụng Qwen3 LLM mã nguồn mở với tín dụng được cung cấp bởi Cloudflare Workers AI. Kết quả có thể thay đổi vì codebase chủ yếu được kiểm tra trên `gpt-4.1` nhưng token của bạn không đi đâu cả để được huấn luyện! 🤖"
+

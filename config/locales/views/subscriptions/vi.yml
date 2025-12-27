@@ -1,0 +1,4 @@
+---
+vi:
+  subscriptions:
+    self_hosted_alert: "%{product_name} không khả dụng ở chế độ tự lưu trữ."

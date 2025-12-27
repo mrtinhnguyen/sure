@@ -1,5 +1,5 @@
 require_relative "boot"
-
+require "dotenv/load"
 require "rails/all"
 
 # Require the gems listed in Gemfile, including any gems
@@ -26,6 +26,7 @@ module Sure
 
     # TODO: This is here for incremental adoption of localization.  This can be removed when all translations are implemented.
     config.i18n.fallbacks = true
+    config.i18n.default_locale = :vi
 
     config.app_mode = (ENV["SELF_HOSTED"] == "true" || ENV["SELF_HOSTING_ENABLED"] == "true" ? "self_hosted" : "managed").inquiry
 

@@ -1,0 +1,5 @@
+---
+vi:
+  oidc_accounts:
+    link:
+      account_creation_disabled: Tạo tài khoản mới qua đăng nhập đơn (single sign-on) đã bị tắt. Vui lòng liên hệ quản trị viên để tạo tài khoản của bạn.

@@ -1,0 +1,88 @@
+---
+vi:
+  import:
+    cleans:
+      show:
+        description: Chỉnh sửa dữ liệu của bạn trong bảng bên dưới. Các ô màu đỏ là không hợp lệ.
+        errors_notice: Bạn có lỗi trong dữ liệu của mình. Di chuột qua lỗi để xem chi tiết.
+        errors_notice_mobile: Bạn có lỗi trong dữ liệu của mình. Nhấn vào tooltip lỗi để xem chi tiết.
+        title: Làm sạch dữ liệu của bạn
+    configurations:
+      category_import:
+        button_label: Tiếp tục
+        description: Tải lên một tệp CSV đơn giản (như tệp chúng tôi tạo khi bạn xuất dữ liệu của mình). Chúng tôi sẽ tự động ánh xạ các cột cho bạn.
+        instructions: Chọn tiếp tục để phân tích CSV của bạn và chuyển sang bước làm sạch.
+      mint_import:
+        date_format_label: Định dạng ngày
+      rule_import:
+        description: Cấu hình nhập khẩu quy tắc của bạn. Quy tắc sẽ được tạo hoặc cập nhật dựa trên dữ liệu CSV.
+        process_button: Xử lý Quy tắc
+        process_help: Nhấp vào nút bên dưới để xử lý CSV của bạn và tạo các hàng quy tắc.
+      show:
+        description: Chọn các cột tương ứng với từng trường trong CSV của bạn.
+        title: Cấu hình nhập khẩu của bạn
+      trade_import:
+        date_format_label: Định dạng ngày
+      transaction_import:
+        date_format_label: Định dạng ngày
+    confirms:
+      mappings:
+        create_account: Tạo tài khoản
+        csv_mapping_label: "%{mapping} trong CSV"
+        sure_mapping_label: "%{mapping} trong %{product_name}"
+        no_accounts: Bạn chưa có tài khoản nào. Vui lòng tạo một tài khoản mà chúng tôi có thể sử dụng cho các hàng (chưa được gán) trong CSV của bạn hoặc quay lại bước Làm sạch và cung cấp tên tài khoản chúng tôi có thể sử dụng.
+        rows_label: Hàng
+        unassigned_account: Cần tạo tài khoản mới cho các hàng chưa được gán?
+      show:
+        account_mapping_description: Gán tất cả tài khoản của tệp đã nhập của bạn cho các tài khoản hiện có của Maybe. Bạn cũng có thể thêm tài khoản mới hoặc để chúng chưa được phân loại.
+        account_mapping_title: Gán tài khoản của bạn
+        account_type_mapping_description: Gán tất cả loại tài khoản của tệp đã nhập của bạn cho loại tài khoản của Maybe
+        account_type_mapping_title: Gán loại tài khoản của bạn
+        category_mapping_description: Gán tất cả danh mục của tệp đã nhập của bạn cho các danh mục hiện có của Maybe. Bạn cũng có thể thêm danh mục mới hoặc để chúng chưa được phân loại.
+        category_mapping_title: Gán danh mục của bạn
+        tag_mapping_description: Gán tất cả thẻ của tệp đã nhập của bạn cho các thẻ hiện có của Maybe. Bạn cũng có thể thêm thẻ mới hoặc để chúng chưa được phân loại.
+        tag_mapping_title: Gán thẻ của bạn
+    uploads:
+      show:
+        description: Dán hoặc tải lên tệp CSV của bạn bên dưới. Vui lòng xem lại hướng dẫn trong bảng bên dưới trước khi bắt đầu.
+        instructions_1: Bên dưới là một ví dụ CSV với các cột có sẵn để nhập khẩu.
+        instructions_2: CSV của bạn phải có hàng tiêu đề
+        instructions_3: Bạn có thể đặt tên các cột của mình bất cứ gì bạn muốn. Bạn sẽ ánh xạ chúng ở bước sau.
+        instructions_4: Các cột được đánh dấu bằng dấu hoa thị (*) là dữ liệu bắt buộc.
+        instructions_5: Không có dấu phẩy, không có ký hiệu tiền tệ và không có dấu ngoặc đơn trong số.
+        title: Nhập khẩu dữ liệu của bạn
+  imports:
+    empty:
+      message: Chưa có nhập khẩu nào.
+      new: Nhập khẩu Mới
+    import:
+      complete: Hoàn tất
+      delete: Xóa
+      failed: Thất bại
+      in_progress: Đang tiến hành
+      label: "%{type}: %{datetime}"
+      revert_failed: Hoàn tác thất bại
+      reverting: Đang hoàn tác
+      uploading: Đang xử lý hàng
+      view: Xem
+    index:
+      imports: Nhập khẩu
+      new: Nhập khẩu Mới
+      title: Nhập/Xuất
+      exports: Xuất khẩu
+      new_export: Xuất khẩu Mới
+      no_exports: Chưa có xuất khẩu nào.
+    new:
+      description: Bạn có thể tự nhập khẩu nhiều loại dữ liệu qua CSV hoặc sử dụng một trong các mẫu nhập khẩu của chúng tôi như Mint.
+      import_accounts: Nhập khẩu tài khoản
+      import_categories: Nhập khẩu danh mục
+      import_mint: Nhập khẩu từ Mint
+      import_portfolio: Nhập khẩu đầu tư
+      import_rules: Nhập khẩu quy tắc
+      import_transactions: Nhập khẩu giao dịch
+      resume: Tiếp tục %{type}
+      sources: Nguồn
+      title: Nhập khẩu CSV Mới
+    ready:
+      description: Đây là tóm tắt các mục mới sẽ được thêm vào tài khoản của bạn sau khi bạn xuất bản nhập khẩu này.
+      title: Xác nhận dữ liệu nhập khẩu của bạn

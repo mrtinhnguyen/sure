@@ -1,0 +1,34 @@
+---
+vi:
+  categories:
+    bootstrap:
+      success: Danh mục mặc định đã được tạo thành công
+    category:
+      delete: Xóa danh mục
+      edit: Chỉnh sửa danh mục
+    create:
+      success: Danh mục đã được tạo thành công
+    destroy:
+      success: Danh mục đã được xóa thành công
+    edit:
+      edit: Chỉnh sửa danh mục
+    form:
+      placeholder: Tên danh mục
+    index:
+      bootstrap: Sử dụng mặc định (khuyến nghị)
+      categories: Danh mục
+      categories_expenses: Danh mục chi phí
+      categories_incomes: Danh mục thu nhập
+      empty: Không tìm thấy danh mục
+      new: Danh mục mới
+    menu:
+      loading: Đang tải...
+    new:
+      new_category: Danh mục mới
+    update:
+      success: Danh mục đã được cập nhật thành công
+  category:
+    dropdowns:
+      show:
+        bootstrap: Tạo danh mục mặc định
+        empty: Không tìm thấy danh mục

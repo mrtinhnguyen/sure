@@ -1,0 +1,18 @@
+---
+vi:
+  activerecord:
+    errors:
+      models:
+        transfer:
+          attributes:
+            base:
+              inflow_cannot_be_in_multiple_transfers: Giao dịch dòng vào không thể là một phần của nhiều chuyển khoản
+              must_be_from_different_accounts: Chuyển khoản phải có các tài khoản khác nhau
+              must_be_from_same_family: Chuyển khoản phải từ cùng một gia đình
+              must_be_within_date_range: Ngày giao dịch chuyển khoản phải trong vòng 4 ngày của nhau
+              must_have_opposite_amounts: Giao dịch chuyển khoản phải có số tiền đối nghịch
+              must_have_single_currency: Chuyển khoản phải có một loại tiền tệ
+              outflow_cannot_be_in_multiple_transfers: Giao dịch dòng ra không thể là một phần của nhiều chuyển khoản
+  transfer:
+    name: Chuyển đến %{to_account}
+    payment_name: Thanh toán đến %{to_account}

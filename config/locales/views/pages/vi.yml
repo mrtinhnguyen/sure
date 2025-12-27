@@ -1,0 +1,44 @@
+---
+vi:
+  pages:
+    changelog:
+      title: Những gì mới
+    dashboard:
+      welcome: "Chào mừng trở lại, %{name}"
+      subtitle: "Đây là những gì đang xảy ra với tài chính của bạn"
+      new: "Mới"
+      drag_to_reorder: "Kéo để sắp xếp lại phần"
+      toggle_section: "Bật/tắt hiển thị phần"
+      net_worth_chart:
+        data_not_available: Dữ liệu không có sẵn cho khoảng thời gian đã chọn
+        title: Tài sản ròng
+      no_account_empty_state:
+        new_account: Tài khoản mới
+        no_account_subtitle: Vì chưa có tài khoản nào được thêm, không có dữ liệu để hiển thị. Thêm tài khoản đầu tiên của bạn để bắt đầu xem dữ liệu bảng điều khiển.
+        no_account_title: Chưa có tài khoản
+      balance_sheet:
+        title: "Bảng cân đối"
+        no_items: "Chưa có %{name}"
+        add_accounts: "Thêm tài khoản %{name} của bạn để xem phân tích đầy đủ"
+      cashflow_sankey:
+        title: "Dòng tiền"
+        no_data_title: "Không có dữ liệu dòng tiền cho khoảng thời gian này"
+        no_data_description: "Thêm giao dịch để hiển thị dữ liệu dòng tiền hoặc mở rộng khoảng thời gian"
+        add_transaction: "Thêm giao dịch"
+      no_accounts:
+        title: "Chưa có tài khoản"
+        description: "Thêm tài khoản để hiển thị dữ liệu tài sản ròng"
+        add_account: "Thêm tài khoản"
+      outflows_donut:
+        title: "Dòng ra"
+        total_outflows: "Tổng dòng ra"
+        categories: "Danh mục"
+        value: "Giá trị"
+        weight: "Trọng lượng"
+    feedback:
+      page_title: Phản hồi
+      title: Gửi phản hồi
+      subtitle: Cho chúng tôi biết nếu bạn có phản hồi cụ thể. Vui lòng bao gồm liên kết đến video hoặc ảnh chụp màn hình.
+      contact_email: Liên hệ qua Email
+      contact_twitter: Liên hệ qua Twitter
+      visit_help_center: Truy cập Trung tâm trợ giúp

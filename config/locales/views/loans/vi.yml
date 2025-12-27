@@ -1,0 +1,23 @@
+---
+vi:
+  loans:
+    edit:
+      edit: Chỉnh sửa %{account}
+    form:
+      interest_rate: Lãi suất
+      interest_rate_placeholder: '5.25'
+      initial_balance: Số dư khoản vay ban đầu
+      rate_type: Loại lãi suất
+      term_months: Kỳ hạn (tháng)
+      term_months_placeholder: '360'
+    new:
+      title: Nhập chi tiết khoản vay
+    overview:
+      interest_rate: Lãi suất
+      monthly_payment: Thanh toán Hàng tháng
+      not_applicable: N/A
+      original_principal: Vốn gốc Ban đầu
+      remaining_principal: Vốn gốc Còn lại
+      term: Kỳ hạn
+      type: Loại
+      unknown: Không xác định

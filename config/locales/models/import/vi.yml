@@ -1,0 +1,13 @@
+---
+vi:
+  activerecord:
+    attributes:
+      import:
+        currency: Tiền tệ
+        number_format: Định dạng Số
+    errors:
+      models:
+        import:
+          attributes:
+            raw_file_str:
+              invalid_csv_format: không phải định dạng CSV hợp lệ

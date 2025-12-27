@@ -1,0 +1,38 @@
+---
+vi:
+  trades:
+    form:
+      account: Tài khoản chuyển khoản (tùy chọn)
+      account_prompt: Tìm kiếm tài khoản
+      amount: Số tiền
+      holding: Ký hiệu ticker
+      price: Giá mỗi cổ phiếu
+      qty: Số lượng
+      submit: Thêm giao dịch
+      ticker_placeholder: AAPL
+      type: Loại
+    header:
+      buy: Mua
+      current_market_price_label: Giá Thị trường Hiện tại
+      overview: Tổng quan
+      purchase_price_label: Giá Mua
+      purchase_qty_label: Số lượng Mua
+      sell: Bán
+      symbol_label: Ký hiệu
+      total_return_label: Lãi/lỗ chưa thực hiện
+    new:
+      title: Giao dịch mới
+    show:
+      additional: Bổ sung
+      cost_per_share_label: Chi phí mỗi Cổ phiếu
+      date_label: Ngày
+      delete: Xóa
+      delete_subtitle: Hành động này không thể hoàn tác
+      delete_title: Xóa Giao dịch
+      details: Chi tiết
+      exclude_subtitle: Giao dịch này sẽ không được bao gồm trong báo cáo và tính toán
+      exclude_title: Loại trừ khỏi phân tích
+      note_label: Ghi chú
+      note_placeholder: Thêm bất kỳ ghi chú bổ sung nào ở đây...
+      quantity_label: Số lượng
+      settings: Cài đặt

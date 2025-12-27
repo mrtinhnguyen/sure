@@ -1,0 +1,25 @@
+---
+vi:
+  vehicles:
+    edit:
+      edit: Chỉnh sửa %{account}
+    form:
+      make: Hãng
+      make_placeholder: Toyota
+      mileage: Số dặm
+      mileage_placeholder: '15000'
+      mileage_unit: Đơn vị
+      model: Mẫu
+      model_placeholder: Camry
+      year: Năm
+      year_placeholder: '2023'
+    new:
+      title: Nhập chi tiết phương tiện
+    overview:
+      current_price: Giá Hiện tại
+      make_model: Hãng & Mẫu
+      mileage: Số dặm
+      purchase_price: Giá Mua
+      trend: Xu hướng
+      unknown: Không xác định
+      year: Năm

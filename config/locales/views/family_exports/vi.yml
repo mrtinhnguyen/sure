@@ -1,0 +1,7 @@
+---
+vi:
+  family_exports:
+    list:
+      in_progress: Đang tiến hành
+      complete: Hoàn tất
+      failed: Thất bại

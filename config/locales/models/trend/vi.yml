@@ -1,0 +1,13 @@
+---
+vi:
+  activemodel:
+    errors:
+      models:
+        trend:
+          attributes:
+            current:
+              must_be_of_the_same_type_as_previous: phải cùng loại với previous
+              must_be_of_type_money_numeric_or_nil: phải là loại Money, Numeric, hoặc nil
+            previous:
+              must_be_of_the_same_type_as_current: phải cùng loại với current
+              must_be_of_type_money_numeric_or_nil: phải là loại Money, Numeric, hoặc nil

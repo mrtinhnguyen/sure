@@ -1,0 +1,126 @@
+---
+vi:
+  reports:
+    index:
+      title: Báo cáo
+      subtitle: Thông tin chi tiết toàn diện về tình hình tài chính của bạn
+      export: Xuất CSV
+      drag_to_reorder: "Kéo để sắp xếp lại phần"
+      toggle_section: "Bật/tắt hiển thị phần"
+      periods:
+        monthly: Hàng tháng
+        quarterly: Hàng quý
+        ytd: Từ đầu năm
+        last_6_months: 6 Tháng qua
+        custom: Phạm vi Tùy chỉnh
+      date_range:
+        from: Từ
+        to: Đến
+      showing_period: "Hiển thị dữ liệu từ %{start} đến %{end}"
+    invalid_date_range: "Ngày kết thúc không thể trước ngày bắt đầu. Các ngày đã được hoán đổi."
+    summary:
+      total_income: Tổng Thu nhập
+      total_expenses: Tổng Chi phí
+      net_savings: Tiết kiệm Ròng
+      budget_performance: Hiệu suất Ngân sách
+      vs_previous: so với khoảng thời gian trước
+      income_minus_expenses: Thu nhập trừ chi phí
+      of_budget_used: của ngân sách đã sử dụng
+      no_budget_data: Không có dữ liệu ngân sách cho khoảng thời gian này
+    budget_performance:
+      title: Hiệu suất Ngân sách
+      spent: Đã chi
+      budgeted: Đã lên ngân sách
+      remaining: Còn lại
+      over_by: Vượt quá
+      suggested_daily: "%{amount} đề xuất mỗi ngày cho %{days} ngày còn lại"
+      no_budgets: Không có danh mục ngân sách nào được thiết lập cho tháng này
+      status:
+        good: Đúng hướng
+        warning: Gần giới hạn
+        over: Vượt Ngân sách
+    trends:
+      title: Xu hướng & Thông tin chi tiết
+      monthly_breakdown: Phân tích Hàng tháng
+      month: Tháng
+      income: Thu nhập
+      expenses: Chi phí
+      net: Ròng
+      savings_rate: Tỷ lệ Tiết kiệm
+      current: hiện tại
+      avg_monthly_income: Thu nhập Trung bình Hàng tháng
+      avg_monthly_expenses: Chi phí Trung bình Hàng tháng
+      avg_monthly_savings: Tiết kiệm Trung bình Hàng tháng
+      no_data: Không có dữ liệu xu hướng
+      spending_patterns: Mô hình Chi tiêu
+      weekday_spending: Chi tiêu Ngày trong tuần
+      weekend_spending: Chi tiêu Cuối tuần
+      total: Tổng
+      avg_per_transaction: Trung bình mỗi giao dịch
+      transactions: Giao dịch
+      insight_title: Thông tin chi tiết
+      insight_higher_weekend: "Bạn chi %{percent}% nhiều hơn mỗi giao dịch vào cuối tuần so với ngày trong tuần"
+      insight_higher_weekday: "Bạn chi %{percent}% nhiều hơn mỗi giao dịch vào ngày trong tuần so với cuối tuần"
+      insight_similar: "Chi tiêu mỗi giao dịch của bạn tương tự nhau vào ngày trong tuần và cuối tuần"
+      no_spending_data: Không có dữ liệu chi tiêu cho khoảng thời gian này
+    empty_state:
+      title: Không có Dữ liệu
+      description: Bắt đầu theo dõi tài chính của bạn bằng cách thêm giao dịch hoặc kết nối tài khoản của bạn để xem báo cáo toàn diện
+      add_transaction: Thêm Giao dịch
+      add_account: Thêm Tài khoản
+    transactions_breakdown:
+      title: Phân tích Giao dịch
+      no_transactions: Không tìm thấy giao dịch nào cho khoảng thời gian và bộ lọc đã chọn
+      filters:
+        title: Bộ lọc
+        category: Danh mục
+        account: Tài khoản
+        tag: Thẻ
+        amount_min: Số tiền Tối thiểu
+        amount_max: Số tiền Tối đa
+        date_range: Phạm vi Ngày
+        all_categories: Tất cả Danh mục
+        all_accounts: Tất cả Tài khoản
+        all_tags: Tất cả Thẻ
+        apply: Áp dụng Bộ lọc
+        clear: Xóa Bộ lọc
+      sort:
+        label: Sắp xếp theo
+        date_desc: Ngày (Mới nhất)
+        amount_desc: Số tiền (Cao đến Thấp)
+        amount_asc: Số tiền (Thấp đến Cao)
+      export:
+        label: Xuất
+        csv: CSV
+        excel: Excel
+        pdf: PDF
+        google_sheets: Mở trong Google Sheets
+      table:
+        category: Danh mục
+        amount: Số tiền
+        type: Loại
+        expense: Chi phí
+        income: Thu nhập
+        uncategorized: Chưa phân loại
+        transactions: giao dịch
+        percentage: "% của Tổng"
+      pagination:
+        showing: Hiển thị %{count} giao dịch
+        previous: Trước
+        next: Tiếp theo
+    google_sheets_instructions:
+      title_with_key: "✅ Sao chép URL cho Google Sheets"
+      title_no_key: "⚠️ Cần Khóa API"
+      ready: URL CSV của bạn (có khóa API) đã sẵn sàng.
+      steps: "Để nhập vào Google Sheets:\n1. Tạo một Google Sheet mới\n2. Trong ô A1, nhập công thức được hiển thị bên dưới\n3. Nhấn Enter"
+      security_warning: "URL này bao gồm khóa API của bạn. Hãy giữ an toàn!"
+      need_key: Để nhập dữ liệu vào Google Sheets, bạn cần một khóa API.
+      step1: "Đi tới Cài đặt → Khóa API"
+      step2: "Tạo khóa API mới với quyền \"đọc\""
+      step3: Sao chép khóa API
+      step4: "Thêm nó vào URL này như: ?api_key=YOUR_KEY"
+      example: Ví dụ
+      then_use: Sau đó sử dụng URL đầy đủ với =IMPORTDATA() trong Google Sheets.
+      open_sheets: Mở Google Sheets
+      go_to_api_keys: Đi tới Khóa API
+      close: Đã hiểu

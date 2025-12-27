@@ -1,0 +1,7 @@
+---
+vi:
+  cryptos:
+    edit:
+      edit: Chỉnh sửa %{account}
+    new:
+      title: Nhập số dư tài khoản

@@ -1,0 +1,78 @@
+---
+vi:
+  settings:
+    hostings:
+      invite_code_settings:
+        description: Kiểm soát cách người mới đăng ký cho phiên bản %{product} của bạn.
+        email_confirmation_description: Khi được bật, người dùng phải xác nhận địa chỉ email của họ khi thay đổi nó.
+        email_confirmation_title: Yêu cầu xác nhận email
+        generate_tokens: Tạo mã mới
+        generated_tokens: Mã đã tạo
+        title: Tiếp nhận
+        states:
+          open: Mở
+          closed: Đóng
+          invite_only: Chỉ mời
+      show:
+        general: Cài đặt Chung
+        financial_data_providers: Nhà cung cấp Dữ liệu Tài chính
+        invites: Mã Mời
+        title: Tự lưu trữ
+        danger_zone: Vùng Nguy hiểm
+        clear_cache: Xóa bộ nhớ đệm dữ liệu
+        clear_cache_warning: Xóa bộ nhớ đệm dữ liệu sẽ xóa tất cả tỷ giá hối đoái, giá chứng khoán, số dư tài khoản và dữ liệu khác. Điều này sẽ không xóa tài khoản, giao dịch, danh mục hoặc dữ liệu thuộc sở hữu người dùng khác.
+        confirm_clear_cache:
+          title: Xóa bộ nhớ đệm dữ liệu?
+          body: Bạn có chắc chắn muốn xóa bộ nhớ đệm dữ liệu? Điều này sẽ xóa tất cả tỷ giá hối đoái, giá chứng khoán, số dư tài khoản và dữ liệu khác. Hành động này không thể hoàn tác.
+      provider_selection:
+        title: Lựa chọn Nhà cung cấp
+        description: Chọn dịch vụ để sử dụng cho việc lấy tỷ giá hối đoái và giá chứng khoán. Yahoo Finance miễn phí và không yêu cầu khóa API. Twelve Data yêu cầu khóa API miễn phí nhưng có thể cung cấp phạm vi dữ liệu lớn hơn.
+        exchange_rate_provider_label: Nhà cung cấp Tỷ giá Hối đoái
+        securities_provider_label: Nhà cung cấp Chứng khoán (Giá Cổ phiếu)
+        env_configured_message: Lựa chọn nhà cung cấp bị tắt vì biến môi trường (EXCHANGE_RATE_PROVIDER hoặc SECURITIES_PROVIDER) đã được đặt. Để bật lựa chọn ở đây, hãy xóa các biến môi trường này khỏi cấu hình của bạn.
+        providers:
+          twelve_data: Twelve Data
+          yahoo_finance: Yahoo Finance
+      brand_fetch_settings:
+        description: Nhập Client ID được cung cấp bởi Brand Fetch
+        label: Client ID
+        placeholder: Nhập Client ID của bạn vào đây
+        title: Cài đặt Brand Fetch
+      openai_settings:
+        description: Nhập access token và tùy chọn cấu hình nhà cung cấp tương thích OpenAI tùy chỉnh
+        env_configured_message: Đã cấu hình thành công thông qua biến môi trường.
+        access_token_label: Access Token
+        access_token_placeholder: Nhập access token của bạn vào đây
+        uri_base_label: URL Cơ sở API (Tùy chọn)
+        uri_base_placeholder: "https://api.openai.com/v1 (mặc định)"
+        model_label: Model (Tùy chọn)
+        model_placeholder: "gpt-4.1 (mặc định)"
+        json_mode_label: Chế độ JSON
+        json_mode_auto: Tự động (khuyến nghị)
+        json_mode_strict: Nghiêm ngặt (tốt nhất cho thinking models)
+        json_mode_none: Không (tốt nhất cho standard models)
+        json_mode_json_object: Đối tượng JSON
+        json_mode_help: "Chế độ Nghiêm ngặt hoạt động tốt nhất với thinking models (qwen-thinking, deepseek-reasoner). Chế độ Không hoạt động tốt nhất với standard models (llama, mistral, gpt-oss)."
+        title: OpenAI
+      yahoo_finance_settings:
+        title: Yahoo Finance
+        description: Yahoo Finance cung cấp quyền truy cập miễn phí vào giá cổ phiếu, tỷ giá hối đoái và dữ liệu tài chính mà không yêu cầu khóa API.
+        status_active: Yahoo Finance đang hoạt động
+        status_inactive: Kết nối Yahoo Finance thất bại
+        connection_failed: Không thể kết nối với Yahoo Finance
+        troubleshooting: Kiểm tra kết nối internet và cài đặt tường lửa của bạn. Yahoo Finance có thể tạm thời không khả dụng.
+      twelve_data_settings:
+        api_calls_used: "%{used} / %{limit} cuộc gọi API hàng ngày đã sử dụng (%{percentage})"
+        description: Nhập khóa API được cung cấp bởi Twelve Data
+        env_configured_message: Đã cấu hình thành công thông qua biến môi trường TWELVE_DATA_API_KEY.
+        label: Khóa API
+        placeholder: Nhập khóa API của bạn vào đây
+        plan: "gói %{plan}"
+        title: Twelve Data
+      update:
+        failure: Giá trị cài đặt không hợp lệ
+        success: Cài đặt đã được cập nhật
+        invalid_onboarding_state: Trạng thái onboarding không hợp lệ
+      clear_cache:
+        cache_cleared: Bộ nhớ đệm dữ liệu đã được xóa. Điều này có thể mất một vài phút để hoàn tất.
+      not_authorized: Bạn không được phép thực hiện hành động này

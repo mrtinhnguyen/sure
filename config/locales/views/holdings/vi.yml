@@ -1,0 +1,35 @@
+---
+vi:
+  holdings:
+    cash:
+      brokerage_cash: Tiền mặt môi giới
+    destroy:
+      success: Tài sản nắm giữ đã được xóa
+    holding:
+      per_share: mỗi cổ phiếu
+      shares: "%{qty} cổ phiếu"
+    index:
+      average_cost: Chi phí trung bình
+      holdings: Tài sản nắm giữ
+      name: Tên
+      new_holding: Giao dịch mới
+      no_holdings: Không có tài sản nắm giữ để hiển thị.
+      return: Tổng lợi nhuận
+      weight: Trọng lượng
+    missing_price_tooltip:
+      description: Đầu tư này có giá trị bị thiếu và chúng tôi không thể tính toán lợi nhuận hoặc giá trị của nó.
+      missing_data: Dữ liệu bị thiếu
+    show:
+      avg_cost_label: Chi phí Trung bình
+      current_market_price_label: Giá Thị trường Hiện tại
+      delete: Xóa
+      delete_subtitle: Điều này sẽ xóa tài sản nắm giữ và tất cả các giao dịch liên quan của bạn trên tài khoản này. Hành động này không thể hoàn tác.
+      delete_title: Xóa tài sản nắm giữ
+      history: Lịch sử
+      overview: Tổng quan
+      portfolio_weight_label: Trọng lượng Danh mục
+      settings: Cài đặt
+      ticker_label: Ticker
+      trade_history_entry: "%{qty} cổ phiếu của %{security} với giá %{price}"
+      total_return_label: Tổng Lợi nhuận
+      unknown: Không xác định

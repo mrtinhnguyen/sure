@@ -1,0 +1,6 @@
+---
+vi:
+  invite_codes:
+    index:
+      invite_code_description: Tạo mã mới để xem nó được hiển thị ở đây. Các mã đã tạo đã được sử dụng sẽ không còn được hiển thị.
+      no_invite_codes: Không có mã để hiển thị

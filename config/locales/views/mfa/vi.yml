@@ -1,0 +1,34 @@
+---
+vi:
+  mfa:
+    backup_codes:
+      backup_codes_description: Mỗi mã chỉ có thể được sử dụng một lần. Hãy giữ các mã này an toàn và bảo mật.
+      backup_codes_title: Mã Dự phòng của Bạn
+      continue: Tiếp tục đến Cài đặt Bảo mật
+      description: Lưu trữ các mã dự phòng này ở nơi an toàn - bạn sẽ cần chúng nếu bạn mất quyền truy cập vào ứng dụng xác thực của mình
+      page_title: Mã Dự phòng
+      title: Lưu Mã Dự phòng của Bạn
+    create:
+      invalid_code: Mã xác minh không hợp lệ. Vui lòng thử lại.
+    disable:
+      success: Xác thực hai yếu tố đã được tắt
+    new:
+      code_label: Mã Xác minh
+      code_placeholder: Nhập mã 6 chữ số
+      description: Tăng cường bảo mật tài khoản của bạn bằng cách thiết lập xác thực hai yếu tố
+      page_title: Thiết lập Xác thực Hai Yếu tố
+      scan_description: Sử dụng ứng dụng xác thực như Google Authenticator hoặc 1Password để quét mã QR này
+      scan_title: 1. Quét Mã QR
+      secret_description: Nếu bạn không thể quét mã QR, hãy nhập khóa bí mật này thủ công vào ứng dụng xác thực của bạn
+      secret_title: Mã Nhập Thủ công
+      title: Thiết lập Xác thực Hai Yếu tố
+      verify_button: Xác minh và Bật 2FA
+      verify_description: Nhập mã 6 chữ số từ ứng dụng xác thực của bạn
+      verify_title: 2. Nhập Mã Xác minh
+    verify:
+      description: Nhập mã từ ứng dụng xác thực của bạn để tiếp tục
+      page_title: Xác minh Xác thực Hai Yếu tố
+      title: Xác thực Hai Yếu tố
+      verify_button: Xác minh
+    verify_code:
+      invalid_code: Mã xác thực không hợp lệ. Vui lòng thử lại.

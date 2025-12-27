@@ -8,14 +8,6 @@ This guide aims to assist new users through:
 
 This guide also covers the differences between **asset** and **liability** accounts, a key concept for using and understanding balances in Sure!
 
-> [!IMPORTANT]
-> Sure is evolving quickly. If you find something inaccurate while following this guide, please:
-> 
-> - Ask in the [Discord](https://discord.gg/36ZGBsxYEK)
-> - Open an [issue](https://github.com/we-promise/sure/issues/new/choose)
-> - Or if you know the answer, open a [PR](https://github.com/we-promise/sure/compare)!
-
-
 ## 1. Creating your Sure Account
 
 Once Sure is installed, open a browser and navigate to [localhost:3000](http://localhost:3000/sessions/new).<br />

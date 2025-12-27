@@ -1,0 +1,10 @@
+---
+vi:
+  settings:
+    securities:
+      show:
+        disable_mfa: Tắt 2FA
+        disable_mfa_confirm: Bạn có chắc chắn muốn tắt xác thực hai yếu tố? Điều này sẽ làm cho tài khoản của bạn kém an toàn hơn.
+        enable_mfa: Bật 2FA
+        mfa_description: Thêm một lớp bảo mật bổ sung cho tài khoản của bạn bằng cách yêu cầu mã từ ứng dụng xác thực của bạn khi đăng nhập
+        mfa_title: Xác thực Hai Yếu tố

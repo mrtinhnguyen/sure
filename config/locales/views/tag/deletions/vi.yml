@@ -1,0 +1,13 @@
+---
+vi:
+  tag:
+    deletions:
+      create:
+        deleted: Thẻ đã được xóa
+      new:
+        delete_and_leave_uncategorized: Xóa "%{tag_name}"
+        delete_and_recategorize: Xóa "%{tag_name}" và gán thẻ mới
+        delete_tag: Xóa thẻ?
+        explanation: "%{tag_name} sẽ được xóa khỏi giao dịch và các thực thể có thể gắn thẻ khác. Thay vì để chúng không có thẻ, bạn cũng có thể gán thẻ mới bên dưới."
+        replacement_tag_prompt: Chọn thẻ
+        tag: Thẻ

@@ -15,8 +15,6 @@
 
 # Sure: The personal finance app for everyone
 
-<b>Get
-involved: [Discord](https://discord.gg/36ZGBsxYEK) • [Website](https://sure.am) • [Issues](https://github.com/we-promise/sure/issues)</b>
 
 > [!IMPORTANT]
 > This repository is a community fork of the now-abandoned Maybe Finance project. <br />

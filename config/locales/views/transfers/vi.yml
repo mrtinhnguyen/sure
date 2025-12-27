@@ -1,0 +1,30 @@
+---
+vi:
+  transfers:
+    create:
+      success: Chuyển khoản đã được tạo
+    destroy:
+      success: Chuyển khoản đã được xóa
+    form:
+      amount: Số tiền
+      date: Ngày
+      expense: Chi phí
+      from: Từ
+      income: Thu nhập
+      select_account: Chọn tài khoản
+      submit: Tạo chuyển khoản
+      to: Đến
+      transfer: Chuyển khoản
+    new:
+      title: Chuyển khoản mới
+    show:
+      delete: Xóa chuyển khoản
+      delete_subtitle: Điều này sẽ xóa chuyển khoản. Nó sẽ không xóa các giao dịch cơ bản.
+      delete_title: Xóa chuyển khoản?
+      details: Chi tiết
+      note_label: Ghi chú
+      note_placeholder: Thêm ghi chú cho chuyển khoản này
+      overview: Tổng quan
+      settings: Cài đặt
+    update:
+      success: Chuyển khoản đã được cập nhật

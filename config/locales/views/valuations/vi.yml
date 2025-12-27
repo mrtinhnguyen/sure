@@ -1,0 +1,30 @@
+---
+vi:
+  valuations:
+    form:
+      amount: Số tiền
+      submit: Thêm cập nhật số dư
+    header:
+      balance: Số dư
+    index:
+      change: thay đổi
+      date: ngày
+      new_entry: Mục mới
+      no_valuations: Chưa có định giá cho tài khoản này
+      valuations: Giá trị
+      value: giá trị
+    new:
+      title: Số dư mới
+    show:
+      amount: Số tiền
+      date_label: Ngày
+      delete: Xóa
+      delete_subtitle: Hành động này không thể hoàn tác
+      delete_title: Xóa Mục
+      details: Chi tiết
+      name_label: Tên
+      name_placeholder: Nhập tên cho mục này
+      note_label: Ghi chú
+      note_placeholder: Thêm bất kỳ chi tiết bổ sung nào về mục này
+      overview: Tổng quan
+      settings: Cài đặt

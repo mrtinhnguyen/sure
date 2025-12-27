@@ -1,0 +1,35 @@
+---
+vi:
+  family_merchants:
+    create:
+      error: 'Lỗi khi tạo nhà cung cấp: %{error}'
+      success: Nhà cung cấp mới đã được tạo thành công
+    destroy:
+      success: Nhà cung cấp đã được xóa thành công
+    edit:
+      title: Chỉnh sửa nhà cung cấp
+    form:
+      name_placeholder: Tên nhà cung cấp
+    index:
+      empty: Chưa có nhà cung cấp
+      new: Nhà cung cấp mới
+      title: Nhà cung cấp
+      family_title: Nhà cung cấp gia đình
+      family_empty: Chưa có nhà cung cấp gia đình
+      provider_title: Nhà cung cấp từ nhà cung cấp
+      provider_empty: Chưa có nhà cung cấp từ nhà cung cấp nào được liên kết với gia đình này
+      provider_read_only: Nhà cung cấp từ nhà cung cấp được đồng bộ từ các tổ chức đã kết nối của bạn. Chúng không thể được chỉnh sửa ở đây.
+      table:
+        merchant: Nhà cung cấp
+        actions: Hành động
+        source: Nguồn
+    merchant:
+      confirm_accept: Xóa nhà cung cấp
+      confirm_body: Bạn có chắc chắn muốn xóa nhà cung cấp này? Xóa nhà cung cấp này sẽ hủy liên kết tất cả các giao dịch liên quan và có thể ảnh hưởng đến báo cáo của bạn.
+      confirm_title: Xóa nhà cung cấp?
+      delete: Xóa nhà cung cấp
+      edit: Chỉnh sửa nhà cung cấp
+    new:
+      title: Nhà cung cấp mới
+    update:
+      success: Nhà cung cấp đã được cập nhật thành công

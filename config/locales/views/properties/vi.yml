@@ -1,0 +1,32 @@
+---
+vi:
+  properties:
+    edit:
+      edit: Chỉnh sửa %{account}
+    form:
+      address_line1: Địa chỉ đường phố
+      address_line1_placeholder: 123 Main St
+      area: Diện tích sống
+      area_placeholder: '2000'
+      area_unit: Đơn vị đo lường
+      country: Quốc gia
+      country_placeholder: VN
+      locality: Thành phố
+      locality_placeholder: Hà Nội
+      none: Không có
+      postal_code: Mã bưu điện
+      postal_code_placeholder: '100000'
+      region: Tỉnh/Thành phố
+      region_placeholder: Hà Nội
+      subtype_prompt: Chọn loại bất động sản
+      year_built: Năm xây dựng
+      year_built_placeholder: '2000'
+    new:
+      title: Nhập chi tiết bất động sản
+    overview:
+      living_area: Diện tích Sống
+      market_value: Giá trị Thị trường
+      purchase_price: Giá Mua
+      trend: Xu hướng
+      unknown: Không xác định
+      year_built: Năm Xây dựng

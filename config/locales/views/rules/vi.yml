@@ -1,0 +1,33 @@
+---
+vi:
+  rules:
+    index:
+      title: Quy tắc
+      new_rule: Quy tắc mới
+      delete_all_rules: Xóa tất cả quy tắc
+      rules_label: Quy tắc
+      no_rules_yet: Chưa có quy tắc nào
+      no_rules_description: Thiết lập quy tắc để thực hiện các hành động đối với giao dịch và dữ liệu khác của bạn trong mỗi lần đồng bộ tài khoản.
+      sort_by: "Sắp xếp theo:"
+      toggle_sort_direction: Chuyển đổi hướng sắp xếp
+    no_action: Không có hành động
+    recent_runs:
+      title: Lần chạy gần đây
+      description: Xem lịch sử thực thi các quy tắc của bạn bao gồm trạng thái thành công/thất bại và số lượng giao dịch.
+      unnamed_rule: Quy tắc chưa đặt tên
+      columns:
+        date_time: Ngày/Giờ
+        execution_type: Loại
+        status: Trạng thái
+        rule_name: Tên quy tắc
+        transactions_counts:
+          queued: Đã xếp hàng
+          processed: Đã xử lý
+          modified: Đã sửa đổi
+      execution_types:
+        manual: Thủ công
+        scheduled: Theo lịch
+      statuses:
+        pending: Đang chờ
+        success: Thành công
+        failed: Thất bại

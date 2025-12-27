@@ -1,0 +1,71 @@
+---
+vi:
+  simplefin_items:
+    new:
+      title: Kết nối SimpleFin
+      setup_token: Token thiết lập
+      setup_token_placeholder: dán SimpleFin setup token của bạn
+      connect: Kết nối
+      cancel: Hủy
+    create:
+      success: Kết nối SimpleFin đã được thêm thành công! Tài khoản của bạn sẽ xuất hiện trong giây lát khi chúng đồng bộ trong nền.
+      errors:
+        blank_token: Vui lòng nhập SimpleFin setup token.
+        invalid_token: Token thiết lập không hợp lệ. Vui lòng kiểm tra xem bạn đã sao chép token đầy đủ từ SimpleFin Bridge.
+        token_compromised: Token thiết lập có thể bị xâm phạm, hết hạn hoặc đã được sử dụng. Vui lòng tạo một token mới.
+        create_failed: "Không thể kết nối: %{message}"
+        unexpected: Đã xảy ra lỗi không mong đợi. Vui lòng thử lại hoặc liên hệ hỗ trợ.
+    destroy:
+      success: Kết nối SimpleFin sẽ được xóa
+    update:
+      success: Kết nối SimpleFin đã được cập nhật thành công! Tài khoản của bạn đang được kết nối lại.
+      errors:
+        blank_token: Vui lòng nhập SimpleFin setup token.
+        invalid_token: Token thiết lập không hợp lệ. Vui lòng kiểm tra xem bạn đã sao chép token đầy đủ từ SimpleFin Bridge.
+        token_compromised: Token thiết lập có thể bị xâm phạm, hết hạn hoặc đã được sử dụng. Vui lòng tạo một token mới.
+        update_failed: "Không thể cập nhật kết nối: %{message}"
+        unexpected: Đã xảy ra lỗi không mong đợi. Vui lòng thử lại hoặc liên hệ hỗ trợ.
+    edit:
+      setup_token:
+        label: "SimpleFin Setup Token:"
+        placeholder: "Dán SimpleFin setup token của bạn vào đây..."
+        help_text: "Token phải là một chuỗi dài bắt đầu bằng chữ cái và số"
+    complete_account_setup:
+      all_skipped: "Tất cả tài khoản đã được bỏ qua. Không có tài khoản nào được tạo."
+      no_accounts: "Không có tài khoản để thiết lập."
+      success: "Đã tạo thành công %{count} tài khoản SimpleFIN! Giao dịch và tài sản của bạn đang được nhập khẩu trong nền."
+    simplefin_item:
+      add_new: Thêm kết nối mới
+      confirm_accept: Xóa kết nối
+      confirm_body: Điều này sẽ xóa vĩnh viễn tất cả các tài khoản trong nhóm này và tất cả dữ liệu liên quan.
+      confirm_title: Xóa kết nối SimpleFin?
+      delete: Xóa
+      deletion_in_progress: "(đang xóa...)"
+      error: Đã xảy ra lỗi khi đồng bộ dữ liệu
+      no_accounts_description: Kết nối này chưa có bất kỳ tài khoản đồng bộ nào.
+      no_accounts_title: Không tìm thấy tài khoản
+      requires_update: Kết nối lại
+      setup_needed: Tài khoản mới sẵn sàng để thiết lập
+      setup_description: Chọn loại tài khoản cho các tài khoản SimpleFin mới được nhập khẩu của bạn.
+      setup_action: Thiết lập Tài khoản Mới
+      status: Lần đồng bộ cuối %{timestamp} trước
+      status_never: Chưa bao giờ đồng bộ
+      status_with_summary: "Lần đồng bộ cuối %{timestamp} trước • %{summary}"
+      syncing: Đang đồng bộ...
+      update: Cập nhật
+    select_existing_account:
+      title: "Liên kết %{account_name} với SimpleFIN"
+      description: Chọn tài khoản SimpleFIN để liên kết với tài khoản hiện có của bạn
+      cancel: Hủy
+      link_account: Liên kết tài khoản
+      no_accounts_found: Không tìm thấy tài khoản SimpleFIN nào cho gia đình này.
+      wait_for_sync: Nếu bạn vừa kết nối hoặc đồng bộ, hãy thử lại sau khi đồng bộ hoàn tất.
+      unlink_to_move: Để di chuyển một liên kết, trước tiên hãy hủy liên kết nó từ menu hành động của tài khoản.
+      all_accounts_already_linked: Tất cả tài khoản SimpleFIN dường như đã được liên kết.
+      currently_linked_to: "Hiện đang liên kết với: %{account_name}"
+
+    link_existing_account:
+      success: Tài khoản đã được liên kết thành công với SimpleFIN
+      errors:
+        only_manual: Chỉ tài khoản thủ công mới có thể được liên kết
+        invalid_simplefin_account: Tài khoản SimpleFIN không hợp lệ đã được chọn

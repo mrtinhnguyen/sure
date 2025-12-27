@@ -1,0 +1,93 @@
+---
+vi:
+  transactions:
+    form:
+      account: Tài khoản
+      account_prompt: Chọn một Tài khoản
+      amount: Số tiền
+      category: Danh mục
+      category_prompt: Chọn một Danh mục
+      date: Ngày
+      description: Mô tả
+      description_placeholder: Mô tả giao dịch
+      expense: Chi tiêu
+      income: Thu nhập
+      none: (không có)
+      note_label: Ghi chú
+      note_placeholder: Nhập ghi chú
+      submit: Thêm giao dịch
+      tags_label: Thẻ
+      transfer: Chuyển khoản
+    new:
+      new_transaction: Giao dịch mới
+    show:
+      account_label: Tài khoản
+      amount: Số tiền
+      category_label: Danh mục
+      date_label: Ngày
+      delete: Xóa
+      delete_subtitle: Điều này sẽ xóa vĩnh viễn giao dịch, ảnh hưởng đến số dư lịch sử của bạn và không thể hoàn tác.
+      delete_title: Xóa giao dịch
+      details: Chi tiết
+      mark_recurring: Đánh dấu là Định kỳ
+      mark_recurring_subtitle: Theo dõi đây như một giao dịch định kỳ. Biến động số tiền được tự động tính toán từ 6 tháng qua của các giao dịch tương tự.
+      mark_recurring_title: Giao dịch Định kỳ
+      merchant_label: Nhà cung cấp
+      name_label: Tên
+      nature: Loại
+      none: "(không có)"
+      note_label: Ghi chú
+      note_placeholder: Nhập ghi chú
+      overview: Tổng quan
+      settings: Cài đặt
+      tags_label: Thẻ
+      uncategorized: "(chưa phân loại)"
+    header:
+      title: Giao dịch
+      edit_categories: Chỉnh sửa danh mục
+      edit_imports: Chỉnh sửa nhập khẩu
+      edit_merchants: Chỉnh sửa nhà cung cấp
+      edit_tags: Chỉnh sửa thẻ
+      edit_rules: Chỉnh sửa quy tắc
+      import: Nhập khẩu
+      new_rule: Quy tắc mới
+      new_transaction: Giao dịch mới
+    index:
+      transaction: giao dịch
+      transactions: giao dịch
+      import: Nhập khẩu
+    toggle_recurring_section: Bật/tắt giao dịch định kỳ sắp tới
+    searches:
+      filters:
+        amount_filter:
+          equal_to: Bằng
+          greater_than: Lớn hơn
+          less_than: Nhỏ hơn
+          placeholder: '0'
+        badge:
+          expense: Chi tiêu
+          income: Thu nhập
+          on_or_after: vào hoặc sau %{date}
+          on_or_before: vào hoặc trước %{date}
+          transfer: Chuyển khoản
+        type_filter:
+          expense: Chi tiêu
+          income: Thu nhập
+          transfer: Chuyển khoản
+      menu:
+        account_filter: Tài khoản
+        amount_filter: Số tiền
+        apply: Áp dụng
+        cancel: Hủy
+        category_filter: Danh mục
+        clear_filters: Xóa bộ lọc
+        date_filter: Ngày
+        merchant_filter: Nhà cung cấp
+        tag_filter: Thẻ
+        type_filter: Loại
+      search:
+        equal_to: bằng
+        greater_than: lớn hơn
+        less_than: nhỏ hơn
+      form:
+        toggle_selection_checkboxes: Bật/tắt tất cả các hộp kiểm

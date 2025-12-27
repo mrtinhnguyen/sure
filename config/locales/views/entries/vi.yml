@@ -1,0 +1,14 @@
+---
+vi:
+  entries:
+    create:
+      success: Mục đã được tạo
+    destroy:
+      success: Mục đã được xóa
+    empty:
+      description: Thử thêm một mục, chỉnh sửa bộ lọc hoặc tinh chỉnh tìm kiếm của bạn
+      title: Không tìm thấy mục nào
+    loading:
+      loading: Đang tải mục...
+    update:
+      success: Mục đã được cập nhật

@@ -1,0 +1,19 @@
+---
+vi:
+  layouts:
+    application:
+      nav:
+        assistant: Trợ lý
+        budgets: Ngân sách
+        home: Trang chủ
+        reports: Báo cáo
+        transactions: Giao dịch
+    auth:
+      existing_account: Đã có tài khoản?
+      no_account: Mới sử dụng %{product_name}?
+      sign_in: Đăng nhập
+      sign_up: Tạo tài khoản
+    shared:
+      footer:
+        privacy_policy: Chính sách bảo mật
+        terms_of_service: Điều khoản dịch vụ

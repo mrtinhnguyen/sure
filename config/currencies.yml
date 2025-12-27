@@ -1,6 +1,6 @@
 usd:
   name: United States Dollar
-  priority: 1
+  priority: 2
   iso_code: USD
   iso_numeric: "840"
   html_code: "&dollar;"
@@ -28,7 +28,7 @@ eur:
   default_precision: 2
 gbp:
   name: British Pound
-  priority: 3
+  priority: 4
   iso_code: GBP
   iso_numeric: "826"
   html_code: "&pound;"
@@ -56,7 +56,7 @@ aud:
   default_precision: 2
 cad:
   name: Canadian Dollar
-  priority: 5
+  priority: 6
   iso_code: CAD
   iso_numeric: "124"
   html_code: "$"
@@ -1176,7 +1176,7 @@ ves:
   default_precision: 2
 vnd:
   name: Vietnamese Đồng
-  priority: 100
+  priority: 1
   iso_code: VND
   iso_numeric: "704"
   html_code: "&#x20AB;"

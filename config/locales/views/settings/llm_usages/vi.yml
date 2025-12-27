@@ -1,0 +1,30 @@
+---
+vi:
+  settings:
+    llm_usages:
+      show:
+        page_title: Sử dụng LLM & Chi phí
+        title: Sử dụng LLM & Chi phí
+        subtitle: Theo dõi việc sử dụng AI và chi phí ước tính
+        start_date_label: Ngày bắt đầu
+        end_date_label: Ngày kết thúc
+        filter_button: Lọc
+        total_requests: Tổng Yêu cầu
+        total_tokens: Tổng Token
+        prompt_tokens: prompt
+        completion_tokens: completion
+        total_cost: Tổng Chi phí
+        avg_cost_per_request: Chi phí Trung bình/Yêu cầu
+        based_on: Dựa trên %{requests_with_cost} trong số %{total_requests} yêu cầu có dữ liệu chi phí
+        cost_by_operation: Chi phí theo Hoạt động
+        cost_by_model: Chi phí theo Model
+        recent_usage: Sử dụng Gần đây
+        date_column: Ngày
+        operation_column: Hoạt động
+        model_column: Model
+        tokens_column: Token
+        cost_column: Chi phí
+        failed: Thất bại
+        no_usage_data: Không tìm thấy dữ liệu sử dụng cho khoảng thời gian đã chọn
+        about_cost_estimates: Về Ước tính Chi phí
+        about_cost_estimates_description: "Chi phí được ước tính dựa trên giá của OpenAI tính đến năm 2025. Chi phí thực tế có thể khác nhau. Giá được tính theo 1 triệu token và khác nhau tùy theo model. Các model tùy chỉnh hoặc tự lưu trữ sẽ hiển thị \"N/A\" và không được bao gồm trong tổng chi phí."

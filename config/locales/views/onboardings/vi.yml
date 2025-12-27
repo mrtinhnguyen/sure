@@ -1,0 +1,27 @@
+---
+vi:
+  onboardings:
+    header:
+      sign_out: Đăng xuất
+    preferences:
+      currency: Tiền tệ
+      date_format: Định dạng ngày
+      example: Tài khoản mẫu
+      locale: Ngôn ngữ
+      preview: Xem trước cách dữ liệu hiển thị dựa trên tùy chọn.
+      submit: Hoàn tất
+      subtitle: Hãy cấu hình tùy chọn của bạn.
+      title: Cấu hình tùy chọn
+    profile:
+      country: Quốc gia
+      first_name: Tên
+      household_name: Tên hộ gia đình
+      last_name: Họ
+      profile_image: Ảnh đại diện
+      submit: Tiếp tục
+      subtitle: Hãy hoàn thiện hồ sơ của bạn.
+      title: Thiết lập thông tin cơ bản
+    show:
+      message: Chúng tôi rất vui mừng khi bạn ở đây. Trong bước tiếp theo, chúng tôi sẽ hỏi bạn một vài câu hỏi để hoàn thiện hồ sơ và sau đó thiết lập mọi thứ cho bạn.
+      setup: Thiết lập tài khoản
+      title: Chào mừng đến với %{product_name}

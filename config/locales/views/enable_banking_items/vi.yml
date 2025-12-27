@@ -1,0 +1,49 @@
+---
+vi:
+  enable_banking_items:
+    authorize:
+      authorization_failed: Không thể khởi tạo ủy quyền
+      bank_required: Vui lòng chọn một ngân hàng.
+      invalid_redirect: URL ủy quyền nhận được không hợp lệ. Vui lòng thử lại hoặc liên hệ hỗ trợ.
+      redirect_uri_not_allowed: Chuyển hướng không được phép. Vui lòng cấu hình `%{callback_url}` trong cài đặt ứng dụng Enable Banking của bạn.
+      unexpected_error: Đã xảy ra lỗi không mong đợi. Vui lòng thử lại.
+    callback:
+      authorization_error: Ủy quyền thất bại
+      invalid_callback: Tham số callback không hợp lệ.
+      item_not_found: Không tìm thấy kết nối.
+      session_failed: Không thể hoàn tất ủy quyền
+      success: Đã kết nối thành công với ngân hàng của bạn. Tài khoản của bạn đang được đồng bộ.
+      unexpected_error: Đã xảy ra lỗi không mong đợi. Vui lòng thử lại.
+    complete_account_setup:
+      all_skipped: Tất cả tài khoản đã được bỏ qua. Bạn có thể thiết lập chúng sau trên trang tài khoản.
+      no_accounts: Không có tài khoản nào có sẵn để thiết lập.
+      success: Đã tạo thành công %{count} tài khoản!
+    create:
+      success: Cấu hình Enable Banking thành công.
+    destroy:
+      success: Kết nối Enable Banking đã được xếp hàng để xóa.
+    link_accounts:
+      already_linked: Các tài khoản đã chọn đã được liên kết.
+      link_failed: Không thể liên kết tài khoản
+      no_accounts_selected: Không có tài khoản nào được chọn.
+      no_session: Không có kết nối Enable Banking đang hoạt động. Vui lòng kết nối với ngân hàng trước.
+      success: Đã liên kết thành công %{count} tài khoản.
+    link_existing_account:
+      success: Tài khoản đã được liên kết thành công với Enable Banking
+      errors:
+        only_manual: Chỉ tài khoản thủ công mới có thể được liên kết
+        invalid_enable_banking_account: Tài khoản Enable Banking không hợp lệ đã được chọn
+    new:
+      link_enable_banking_title: Liên kết Enable Banking
+    reauthorize:
+      invalid_redirect: URL ủy quyền nhận được không hợp lệ. Vui lòng thử lại hoặc liên hệ hỗ trợ.
+      reauthorization_failed: Ủy quyền lại thất bại
+    select_bank:
+      cancel: Hủy
+      check_country: Vui lòng kiểm tra cài đặt mã quốc gia của bạn.
+      credentials_required: Vui lòng cấu hình thông tin đăng nhập Enable Banking trước.
+      description: Chọn ngân hàng bạn muốn kết nối với tài khoản của bạn.
+      no_banks: Không có ngân hàng nào có sẵn cho quốc gia/khu vực này.
+      title: Chọn Ngân hàng của Bạn
+    update:
+      success: Cấu hình Enable Banking đã được cập nhật.

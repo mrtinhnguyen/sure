@@ -1,0 +1,49 @@
+---
+vi:
+  recurring_transactions:
+    title: Giao dịch Định kỳ
+    upcoming: Giao dịch Định kỳ Sắp tới
+    projected: Dự kiến
+    recurring: Định kỳ
+    expected_on: Dự kiến vào %{date}
+    day_of_month: Ngày %{day} của tháng
+    identify_patterns: Xác định Mẫu
+    cleanup_stale: Dọn dẹp Lỗi thời
+    settings:
+      enable_label: Bật Giao dịch Định kỳ
+      enable_description: Tự động phát hiện mẫu giao dịch định kỳ và hiển thị các giao dịch dự kiến sắp tới.
+    settings_updated: Cài đặt giao dịch định kỳ đã được cập nhật
+    info:
+      title: Phát hiện Mẫu Tự động
+      manual_description: Bạn có thể tự xác định mẫu hoặc dọn dẹp các giao dịch định kỳ lỗi thời bằng cách sử dụng các nút ở trên.
+      automatic_description: "Phát hiện tự động cũng chạy sau khi:"
+      triggers:
+        - Nhập khẩu CSV hoàn tất (giao dịch, giao dịch, tài khoản, v.v.)
+        - Bất kỳ đồng bộ nhà cung cấp nào hoàn tất (Plaid, SimpleFIN, v.v.)
+    identified: Đã xác định %{count} mẫu giao dịch định kỳ
+    cleaned_up: Đã dọn dẹp %{count} giao dịch định kỳ lỗi thời
+    marked_inactive: Giao dịch định kỳ đã được đánh dấu là không hoạt động
+    marked_active: Giao dịch định kỳ đã được đánh dấu là hoạt động
+    deleted: Giao dịch định kỳ đã được xóa
+    confirm_delete: Bạn có chắc chắn muốn xóa giao dịch định kỳ này?
+    marked_as_recurring: Giao dịch đã được đánh dấu là định kỳ
+    already_exists: Một giao dịch định kỳ thủ công đã tồn tại cho mẫu này
+    creation_failed: Không thể tạo giao dịch định kỳ. Vui lòng kiểm tra chi tiết giao dịch và thử lại.
+    unexpected_error: Đã xảy ra lỗi không mong đợi khi tạo giao dịch định kỳ
+    amount_range: "Phạm vi: %{min} đến %{max}"
+    empty:
+      title: Không tìm thấy giao dịch định kỳ
+      description: Nhấp "Xác định Mẫu" để tự động phát hiện giao dịch định kỳ từ lịch sử giao dịch của bạn.
+    table:
+      merchant: Tên
+      amount: Số tiền
+      expected_day: Ngày Dự kiến
+      next_date: Ngày Tiếp theo
+      last_occurrence: Lần Xuất hiện Cuối
+      status: Trạng thái
+      actions: Hành động
+    status:
+      active: Hoạt động
+      inactive: Không hoạt động
+    badges:
+      manual: Thủ công

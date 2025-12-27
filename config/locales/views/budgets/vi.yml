@@ -1,0 +1,54 @@
+---
+vi:
+  budgets:
+    show:
+      tabs:
+        actual: Thực tế
+        budgeted: Ngân sách
+      categories_title: Danh mục
+      edit_button: Chỉnh sửa
+    budget_header:
+      today: Hôm nay
+    budget_donut:
+      spent: Đã chi
+      of: "trong số %{amount}"
+      new_budget: Ngân sách mới
+      unused: Chưa sử dụng
+    budgeted_summary:
+      expected_income: Thu nhập dự kiến
+      earned: đã kiếm
+      over: vượt
+      left: còn lại
+      budgeted: Ngân sách
+      spent: đã chi
+    actuals_summary:
+      income: Thu nhập
+      expenses: Chi tiêu
+    over_allocation_warning:
+      message: Bạn đã phân bổ quá ngân sách. Vui lòng sửa lại phân bổ của bạn.
+      fix_allocations: Sửa phân bổ
+    budget_categories_list:
+      categories_label: Danh mục
+      amount_label: Số tiền
+    edit:
+      page_title: Thiết lập ngân sách của bạn
+      title: Thiết lập ngân sách của bạn
+      subtitle: Nhập thu nhập hàng tháng và chi tiêu dự kiến bên dưới để thiết lập ngân sách của bạn.
+      budgeted_spending_label: Chi tiêu ngân sách
+      expected_income_label: Thu nhập dự kiến
+      autosuggest_title: Tự động đề xuất ngân sách thu nhập & chi tiêu
+      autosuggest_description: Điều này sẽ dựa trên lịch sử giao dịch. AI có thể mắc lỗi, vui lòng xác minh trước khi tiếp tục.
+      continue_button: Tiếp tục
+    budget_categories:
+      index:
+        title: Chỉnh sửa ngân sách danh mục của bạn
+        subtitle: Điều chỉnh ngân sách danh mục để đặt giới hạn chi tiêu. Các khoản chưa phân bổ sẽ được tự động gán là chưa phân loại.
+        no_categories_title: Ối!
+        no_categories_description: Bạn chưa tạo hoặc gán bất kỳ danh mục chi tiêu nào cho giao dịch của bạn.
+        use_defaults: Sử dụng mặc định (khuyến nghị)
+        new_category: Danh mục mới
+      allocation_progress:
+        over_100_percent: "> 100% đã đặt"
+        percent_set: "%{percent}% đã đặt"
+        budget_exceeded_by: "Ngân sách vượt quá %{amount}"
+        left_to_allocate: "còn lại để phân bổ"

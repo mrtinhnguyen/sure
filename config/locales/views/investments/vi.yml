@@ -1,0 +1,17 @@
+---
+vi:
+  investments:
+    edit:
+      edit: Chỉnh sửa %{account}
+    form:
+      none: Không có
+      subtype_prompt: Chọn loại đầu tư
+    new:
+      title: Nhập số dư tài khoản
+    show:
+      chart_title: Tổng giá trị
+    value_tooltip:
+      cash: Tiền mặt
+      holdings: Tài sản nắm giữ
+      total: Số dư danh mục đầu tư
+      total_value_tooltip: Tổng số dư danh mục đầu tư là tổng tiền mặt môi giới (có sẵn để giao dịch) và giá trị thị trường hiện tại của tài sản nắm giữ của bạn.

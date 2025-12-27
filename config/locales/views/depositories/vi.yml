@@ -1,0 +1,10 @@
+---
+vi:
+  depositories:
+    edit:
+      edit: Chỉnh sửa %{account}
+    form:
+      none: Không có
+      subtype_prompt: Chọn loại tài khoản
+    new:
+      title: Nhập số dư tài khoản

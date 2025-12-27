@@ -1,0 +1,120 @@
+---
+vi:
+  accounts:
+    account:
+      link_lunchflow: Liên kết với Lunch Flow
+      link_provider: Liên kết với nhà cung cấp
+      unlink_provider: Hủy liên kết với nhà cung cấp
+      troubleshoot: Khắc phục sự cố
+    chart:
+      data_not_available: Dữ liệu không có sẵn cho khoảng thời gian đã chọn
+    create:
+      success: "Tài khoản %{type} đã được tạo"
+    destroy:
+      success: "Tài khoản %{type} đã được lên lịch xóa"
+      cannot_delete_linked: "Không thể xóa tài khoản đã liên kết. Vui lòng hủy liên kết trước."
+    empty:
+      empty_message: Thêm tài khoản thông qua kết nối, nhập khẩu hoặc nhập thủ công.
+      new_account: Tài khoản mới
+      no_accounts: Chưa có tài khoản
+    form:
+      balance: Số dư hiện tại
+      name_label: Tên tài khoản
+      name_placeholder: Tên tài khoản mẫu
+      additional_details: Chi tiết bổ sung
+      institution_name_label: Tên tổ chức
+      institution_name_placeholder: "ví dụ: Ngân hàng Chase"
+      institution_domain_label: Tên miền tổ chức
+      institution_domain_placeholder: "ví dụ: chase.com"
+      notes_label: Ghi chú
+      notes_placeholder: Lưu thông tin bổ sung như số tài khoản, mã phân loại, IBAN, số định tuyến, v.v.
+    index:
+      accounts: Tài khoản
+      manual_accounts:
+        other_accounts: Tài khoản khác
+      new_account: Tài khoản mới
+      sync: Đồng bộ tất cả
+    sync_all:
+      syncing: "Đang đồng bộ tài khoản..."
+    new:
+      import_accounts: Nhập khẩu tài khoản
+      method_selector:
+        connected_entry: Liên kết tài khoản
+        connected_entry_eu: Liên kết tài khoản EU
+        link_with_provider: "Liên kết với %{provider}"
+        lunchflow_entry: Liên kết tài khoản Lunch Flow
+        manual_entry: Nhập số dư tài khoản
+        title: Bạn muốn thêm như thế nào?
+      title: Bạn muốn thêm gì?
+    show:
+      activity:
+        amount: Số tiền
+        balance: Số dư
+        date: Ngày
+        entries: mục
+        entry: mục
+        new: Mới
+        new_balance: Số dư mới
+        new_transaction: Giao dịch mới
+        no_entries: Không tìm thấy mục nào
+        search:
+          placeholder: Tìm kiếm mục theo tên
+        title: Hoạt động
+      chart:
+        balance: Số dư
+        owed: Số tiền nợ
+      menu:
+        confirm_accept: Xóa "%{name}"
+        confirm_body_html: "<p>Bằng cách xóa tài khoản này, bạn sẽ xóa lịch sử giá trị của nó, ảnh hưởng đến nhiều khía cạnh của tài khoản tổng thể của bạn. Hành động này sẽ có tác động trực tiếp đến tính toán tài sản ròng và biểu đồ tài khoản của bạn.</p><br /> <p>Sau khi xóa, không có cách nào bạn có thể khôi phục thông tin tài khoản vì bạn sẽ cần thêm nó như một tài khoản mới.</p>"
+        confirm_title: Xóa tài khoản?
+        edit: Chỉnh sửa
+        import: Nhập khẩu giao dịch
+        manage: Quản lý tài khoản
+    update:
+      success: "Tài khoản %{type} đã được cập nhật"
+    sidebar:
+      missing_data: Thiếu dữ liệu lịch sử
+      missing_data_description: "%{product} sử dụng các nhà cung cấp bên thứ ba để lấy tỷ giá hối đoái lịch sử, giá chứng khoán và hơn thế nữa. Dữ liệu này là cần thiết để tính toán số dư tài khoản lịch sử chính xác."
+      configure_providers: Cấu hình các nhà cung cấp của bạn tại đây.
+      tabs:
+        all: Tất cả
+        assets: Tài sản
+        debts: Nợ
+      new_asset: Tài sản mới
+      new_debt: Nợ mới
+      new_account: Tài khoản mới
+      new_account_group: "%{account_group} mới"
+    types:
+      depository: Tiền mặt
+      investment: Đầu tư
+      crypto: Tiền điện tử
+      property: Bất động sản
+      vehicle: Phương tiện
+      other_asset: Tài sản khác
+      credit_card: Thẻ tín dụng
+      loan: Khoản vay
+      other_liability: Nợ khác
+    confirm_unlink:
+      title: Hủy liên kết tài khoản với nhà cung cấp?
+      description_html: "Bạn sắp hủy liên kết <strong>%{account_name}</strong> khỏi <strong>%{provider_name}</strong>. Điều này sẽ chuyển đổi nó thành tài khoản thủ công."
+      warning_title: Điều này có nghĩa là gì
+      warning_no_sync: Tài khoản sẽ không còn tự động đồng bộ với ngân hàng của bạn
+      warning_manual_updates: Bạn sẽ cần thêm giao dịch và cập nhật số dư thủ công
+      warning_transactions_kept: Tất cả giao dịch và số dư hiện có sẽ được giữ lại
+      warning_can_delete: Sau khi hủy liên kết, bạn sẽ có thể xóa tài khoản nếu cần
+      confirm_button: Xác nhận và hủy liên kết
+    unlink:
+      success: "Tài khoản đã được hủy liên kết thành công. Bây giờ nó là tài khoản thủ công."
+      not_linked: "Tài khoản không được liên kết với nhà cung cấp"
+      error: "Không thể hủy liên kết tài khoản: %{error}"
+      generic_error: "Đã xảy ra lỗi không mong đợi. Vui lòng thử lại."
+    select_provider:
+      title: Chọn nhà cung cấp để liên kết
+      description: "Chọn nhà cung cấp bạn muốn sử dụng để liên kết %{account_name}"
+      already_linked: "Tài khoản đã được liên kết với nhà cung cấp"
+      no_providers: "Hiện không có nhà cung cấp nào được cấu hình"
+
+  email_confirmations:
+    new:
+      invalid_token: Liên kết xác nhận không hợp lệ hoặc đã hết hạn.
+      success_login: Email của bạn đã được xác nhận. Vui lòng đăng nhập bằng địa chỉ email mới của bạn.

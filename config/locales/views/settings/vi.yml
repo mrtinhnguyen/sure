@@ -1,0 +1,123 @@
+---
+vi:
+  settings:
+    ai_prompts:
+      show:
+        page_title: Lời nhắc AI
+        openai_label: OpenAI
+        disable_ai: Tắt Trợ lý AI
+        prompt_instructions: Hướng dẫn Lời nhắc
+        main_system_prompt:
+          title: Lời nhắc Hệ thống Chính
+          subtitle: Hướng dẫn cốt lõi xác định cách trợ lý AI hoạt động trong tất cả các cuộc trò chuyện
+        transaction_categorizer:
+          title: Phân loại Giao dịch
+          subtitle: AI tự động phân loại giao dịch của bạn dựa trên các danh mục bạn đã định nghĩa
+        merchant_detector:
+          title: Phát hiện Nhà cung cấp
+          subtitle: AI xác định và làm phong phú dữ liệu giao dịch với thông tin nhà cung cấp
+    billings:
+      show:
+        page_title: Thanh toán
+        subscription_subtitle: Cập nhật đăng ký và chi tiết thanh toán của bạn
+        subscription_title: Quản lý đăng ký
+    preferences:
+      show:
+        country: Quốc gia
+        currency: Tiền tệ
+        date_format: Định dạng ngày
+        general_subtitle: Cấu hình tùy chọn của bạn
+        general_title: Chung
+        default_period: Khoảng thời gian Mặc định
+        default_account_order: Thứ tự Tài khoản Mặc định
+        language: Ngôn ngữ
+        page_title: Tùy chọn
+        theme_dark: Tối
+        theme_light: Sáng
+        theme_subtitle: Chọn chủ đề ưa thích cho ứng dụng
+        theme_system: Hệ thống
+        theme_title: Chủ đề
+        timezone: Múi giờ
+    profiles:
+      destroy:
+        cannot_remove_self: Bạn không thể tự xóa mình khỏi tài khoản.
+        member_removal_failed: Đã xảy ra sự cố khi xóa thành viên.
+        member_removed: Thành viên đã được xóa thành công.
+        not_authorized: Bạn không được phép xóa thành viên.
+      show:
+        confirm_delete:
+          body: Bạn có chắc chắn muốn xóa vĩnh viễn tài khoản của mình? Hành động này không thể hoàn tác.
+          title: Xóa tài khoản?
+        confirm_reset:
+          body: Bạn có chắc chắn muốn đặt lại tài khoản của mình? Điều này sẽ xóa tất cả tài khoản, danh mục, nhà cung cấp, thẻ và dữ liệu khác của bạn. Hành động này không thể hoàn tác.
+          title: Đặt lại tài khoản?
+        confirm_reset_with_sample_data:
+          body: Bạn có chắc chắn muốn đặt lại tài khoản và tải dữ liệu mẫu? Điều này sẽ xóa dữ liệu hiện có của bạn và thay thế bằng dữ liệu demo để bạn có thể khám phá Sure một cách an toàn.
+          title: Đặt lại tài khoản và tải dữ liệu mẫu?
+        confirm_remove_invitation:
+          body: Bạn có chắc chắn muốn xóa lời mời cho %{email}?
+          title: Xóa Lời mời
+        confirm_remove_member:
+          body: Bạn có chắc chắn muốn xóa %{name} khỏi tài khoản của bạn?
+          title: Xóa Thành viên
+        danger_zone_title: Vùng Nguy hiểm
+        delete_account: Xóa tài khoản
+        delete_account_warning: Xóa tài khoản của bạn sẽ xóa vĩnh viễn tất cả dữ liệu của bạn và không thể hoàn tác.
+        reset_account: Đặt lại tài khoản
+        reset_account_warning: Đặt lại tài khoản của bạn sẽ xóa tất cả tài khoản, danh mục, nhà cung cấp, thẻ và dữ liệu khác, nhưng giữ nguyên tài khoản người dùng của bạn.
+        reset_account_with_sample_data: Đặt lại và tải sẵn
+        reset_account_with_sample_data_warning: Xóa tất cả dữ liệu hiện có của bạn và sau đó tải dữ liệu mẫu mới để bạn có thể khám phá với môi trường đã được điền sẵn.
+        email: Email
+        first_name: Tên
+        household_form_input_placeholder: Nhập tên hộ gia đình
+        household_form_label: Tên hộ gia đình
+        household_subtitle: Mời các thành viên gia đình, đối tác và cá nhân khác. Người được mời có thể đăng nhập vào hộ gia đình của bạn và truy cập các tài khoản được chia sẻ.
+        household_title: Hộ gia đình
+        invitation_link: Liên kết mời
+        invite_member: Thêm thành viên
+        last_name: Họ
+        page_title: Thông tin Hồ sơ
+        pending: Đang chờ
+        profile_subtitle: Tùy chỉnh cách bạn xuất hiện trên %{product_name}
+        profile_title: Cá nhân
+        remove_invitation: Xóa Lời mời
+        remove_member: Xóa Thành viên
+        save: Lưu
+    securities:
+      show:
+        page_title: Bảo mật
+    settings_nav:
+      accounts_label: Tài khoản
+      advanced_section_title: Nâng cao
+      ai_prompts_label: Lời nhắc AI
+      api_key_label: Khóa API
+      billing_label: Thanh toán
+      categories_label: Danh mục
+      feedback_label: Phản hồi
+      general_section_title: Chung
+      imports_label: Nhập/Xuất
+      logout: Đăng xuất
+      merchants_label: Nhà cung cấp
+      guides_label: Hướng dẫn
+      other_section_title: Thêm
+      preferences_label: Tùy chọn
+      profile_label: Thông tin Hồ sơ
+      recurring_transactions_label: Định kỳ
+      rules_label: Quy tắc
+      security_label: Bảo mật
+      self_hosting_label: Tự lưu trữ
+      tags_label: Thẻ
+      transactions_section_title: Giao dịch
+      whats_new_label: Những gì mới
+      api_keys_label: Khóa API
+      bank_sync_label: Đồng bộ Ngân hàng
+      llm_usage_label: Sử dụng LLM
+      providers_label: Nhà cung cấp
+    settings_nav_link_large:
+      next: Tiếp theo
+      previous: Quay lại
+    user_avatar_field:
+      accepted_formats: JPG hoặc PNG. Tối đa 5MB.
+      choose: Tải ảnh lên
+      choose_label: (tùy chọn)
+      change: Thay đổi ảnh

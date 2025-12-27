@@ -1,0 +1,25 @@
+---
+vi:
+  credit_cards:
+    edit:
+      edit: Chỉnh sửa %{account}
+    form:
+      annual_fee: Phí hàng năm
+      annual_fee_placeholder: '99'
+      apr: APR
+      apr_placeholder: '15.99'
+      available_credit: Tín dụng có sẵn
+      available_credit_placeholder: '10000'
+      expiration_date: Ngày hết hạn
+      minimum_payment: Thanh toán tối thiểu
+      minimum_payment_placeholder: '100'
+    new:
+      title: Nhập chi tiết thẻ tín dụng
+    overview:
+      amount_owed: Số tiền Nợ
+      annual_fee: Phí Hàng năm
+      apr: APR
+      available_credit: Tín dụng Có sẵn
+      expiration_date: Ngày Hết hạn
+      minimum_payment: Thanh toán Tối thiểu
+      unknown: Không xác định
