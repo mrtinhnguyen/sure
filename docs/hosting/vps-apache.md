@@ -118,8 +118,8 @@ sudo nano /etc/redis/redis.conf
 # Vẫn đang ở user sure
 cd /home/sure
 
-# Clone repository (thay YOUR_REPO_URL bằng URL repo của bạn)
-git clone https://github.com/we-promise/sure.git app
+# Clone repository
+git clone https://github.com/mrtinhnguyen/sure.git app
 cd app
 
 # Hoặc nếu bạn có code riêng, copy vào /home/sure/app

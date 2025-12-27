@@ -51,35 +51,58 @@ mkdir -p ~/sure
 cd ~/sure
 
 # Download Docker Compose config
-curl -o compose.yml https://raw.githubusercontent.com/we-promise/sure/main/compose.example.yml
+# Option 1: Clone the repository (recommended - always up to date)
+git clone https://github.com/mrtinhnguyen/sure.git
+cd sure
+cp docker-compose.yml ~/sure/compose.yml
+cd ~/sure
+
+# Option 2: Download example file (if you don't want to clone the repo)
+# curl -o compose.yml https://raw.githubusercontent.com/mrtinhnguyen/sure/main/compose.example.yml
 ```
 
 ### Bước 3: Cấu hình Environment
 
 ```bash
-# Tạo file .env
+# Nếu đã clone repo, copy env.example
+cp env.example .env
+nano .env
+
+# Hoặc download từ GitHub
+curl -o env.example https://raw.githubusercontent.com/mrtinhnguyen/sure/main/env.example
+cp env.example .env
 nano .env
 ```
 
-Thêm nội dung:
+Cập nhật các giá trị bắt buộc trong `.env`:
 
 ```bash
-# Generate secret key
-SECRET_KEY_BASE=$(openssl rand -hex 64)
-
-# Database
+# Database (REQUIRED)
 POSTGRES_USER=sure_user
-POSTGRES_PASSWORD=$(openssl rand -base64 32)
+POSTGRES_PASSWORD=$(openssl rand -base64 32)  # Generate mật khẩu mạnh
 POSTGRES_DB=sure_production
 
-# Optional: OpenAI
-# OPENAI_ACCESS_TOKEN=your_key_here
+# Rails Secrets (REQUIRED)
+SECRET_KEY_BASE=$(openssl rand -hex 64)  # Generate secret key
+RAILS_MASTER_KEY=your_master_key_here  # Lấy từ: cat config/master.key
 
-# Optional: Domain (nếu có)
-# HOST=yourdomain.com
+# Application Host (REQUIRED)
+HOST=yourdomain.com  # hoặc IP của VPS (ví dụ: 192.168.1.100)
+
+# Optional: OpenAI (nếu sử dụng AI features)
+# OPENAI_ACCESS_TOKEN=sk-...
 ```
 
-**Lưu ý**: Lưu lại `POSTGRES_PASSWORD` để dùng sau này!
+**Lưu ý quan trọng**:
+- **Lưu lại `POSTGRES_PASSWORD`** để dùng sau này!
+- **`SECRET_KEY_BASE`** và **`RAILS_MASTER_KEY`** là bắt buộc
+- Nếu không có `RAILS_MASTER_KEY`, tạo mới:
+  ```bash
+  # Trên máy local (nếu đã clone repo)
+  cd sure
+  rails credentials:edit
+  cat config/master.key  # Copy giá trị này vào .env
+  ```
 
 ### Bước 4: Chạy ứng dụng
 
@@ -358,7 +381,8 @@ Thêm:
 
 - [Hướng dẫn Docker chi tiết](docker.md)
 - [Hướng dẫn VPS Apache chi tiết](vps-apache.md)
-- [Docker Compose Example](https://github.com/we-promise/sure/blob/main/compose.example.yml)
+- [Docker Compose Example](https://github.com/mrtinhnguyen/sure/blob/main/compose.example.yml)
+- [Repository](https://github.com/mrtinhnguyen/sure)
 
 ## Kết luận
 

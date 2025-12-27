@@ -38,8 +38,14 @@ cd ~/docker-apps/sure
 Make sure you are in the directory you just created and run the following command:
 
 ```bash
-# Download the sample compose.yml file from the GitHub repository
-curl -o compose.yml https://raw.githubusercontent.com/we-promise/sure/main/compose.example.yml
+# Option 1: Clone the repository (recommended - always up to date)
+git clone https://github.com/mrtinhnguyen/sure.git
+cd sure
+cp docker-compose.yml ~/docker-apps/sure/compose.yml
+cd ~/docker-apps/sure
+
+# Option 2: Download example file from GitHub
+# curl -o compose.yml https://raw.githubusercontent.com/mrtinhnguyen/sure/main/compose.example.yml
 ```
 
 This command will do the following:
@@ -133,20 +139,31 @@ docker compose ls
 
 Your app is now set up. You can visit it at `http://localhost:3000` in your browser.
 
-If you find bugs or have a feature request, be sure to read through our [contributing guide here](https://github.com/we-promise/sure/wiki/How-to-Contribute-Effectively-to-Sure).
+If you find bugs or have a feature request, please open an issue in the [GitHub repository](https://github.com/mrtinhnguyen/sure/issues).
 
 ## How to update your app
 
-The mechanism that updates your self-hosted Sure app is the GHCR (Github Container Registry) Docker image that you see in the `compose.yml` file:
+The mechanism that updates your self-hosted Sure app depends on how you deploy:
 
+**If using Docker images from GHCR:**
 ```yml
 image: ghcr.io/we-promise/sure:latest
 ```
 
-We recommend using one of the following images, but you can pin your app to whatever version you'd like (see [packages](https://github.com/we-promise/sure/pkgs/container/sure)):
+**If building from source (recommended for customizations):**
+```bash
+# Build from your repository
+git clone https://github.com/mrtinhnguyen/sure.git
+cd sure
+docker compose build
+docker compose up -d
+```
 
+For official images, you can use:
 - `ghcr.io/we-promise/sure:latest` (latest `alpha`)
 - `ghcr.io/we-promise/sure:stable` (latest release)
+
+**Note**: If you have customizations in your fork, it's recommended to build from source.
 
 By default, your app _will NOT_ automatically update. To update your self-hosted app, run the following commands in your terminal:
 
@@ -162,7 +179,13 @@ docker compose up --no-deps -d web worker # This restarts the app using the newe
 If you'd like to pin the app to a specific version or tag, all you need to do is edit the `compose.yml` file:
 
 ```yml
+# For official images
 image: ghcr.io/we-promise/sure:stable
+
+# Or build from your repository
+build:
+  context: .
+  dockerfile: Dockerfile
 ```
 
 After doing this, make sure and restart the app:

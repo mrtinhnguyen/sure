@@ -57,8 +57,13 @@ systemctl start fail2ban
 mkdir -p /opt/sure
 cd /opt/sure
 
-# Download the Docker Compose configuration
-curl -o compose.yml https://raw.githubusercontent.com/we-promise/sure/main/compose.example.yml
+# Option 1: Clone the repository (recommended)
+git clone https://github.com/mrtinhnguyen/sure.git
+cd sure
+cp docker-compose.yml /opt/sure/compose.yml
+
+# Option 2: Download example file
+# curl -o compose.yml https://raw.githubusercontent.com/mrtinhnguyen/sure/main/compose.example.yml
 ```
 
 ## Step 3: Configure Environment Variables

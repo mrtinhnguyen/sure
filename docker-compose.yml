@@ -1,30 +1,19 @@
 # ===========================================================================
-# Example Docker Compose file
+# Docker Compose Configuration for Sure
 # ===========================================================================
 #
-# Purpose:
-# --------
+# This is the production-ready Docker Compose file for self-hosting Sure.
+# It includes all necessary services and configurations.
 #
-# This file is an example Docker Compose configuration for self hosting
-# Sure on your local machine or on a cloud VPS.
-#
-# The configuration below is a "standard" setup that works out of the box,
-# but if you're running this outside of a local network, it is recommended
-# to set the environment variables for extra security.
-#
-# Setup:
+# Usage:
 # ------
 #
-# To run this, you should read the setup guide:
+# 1. Copy this file to your deployment directory
+# 2. Create a .env file with your configuration (see .env.example)
+# 3. Run: docker compose up -d
 #
+# For detailed setup instructions, see:
 # https://github.com/we-promise/sure/blob/main/docs/hosting/docker.md
-#
-# Troubleshooting:
-# ----------------
-#
-# If you run into problems, you should open a Discussion here:
-#
-# https://github.com/we-promise/sure/discussions/categories/general
 #
 
 x-db-env: &db_env
@@ -59,8 +48,7 @@ x-rails-env: &rails_env
   HOST: ${HOST:-localhost}
   
   # Optional: OpenAI (for AI features - will incur costs)
-  # NOTE: Enabling OpenAI will incur costs when you use AI-related features in the app (chat, rules).
-  # Make sure you have set appropriate spend limits on your account before adding this.
+  # Make sure you have set appropriate spend limits before enabling
   OPENAI_ACCESS_TOKEN: ${OPENAI_ACCESS_TOKEN:-}
   
   # Optional: Email configuration
