@@ -2,6 +2,8 @@
 
 Hướng dẫn này sẽ giúp bạn deploy ứng dụng Sure lên VPS riêng mà không sử dụng Docker, với Apache làm reverse proxy.
 
+> 💡 **Lưu ý**: Nếu bạn mới bắt đầu, hãy xem [vps-quick-start.md](vps-quick-start.md) để có hướng dẫn tổng quan và so sánh giữa Docker và không dùng Docker.
+
 ## Yêu cầu hệ thống
 
 - **VPS**: Ubuntu 22.04 LTS hoặc Debian 12 (khuyến nghị)

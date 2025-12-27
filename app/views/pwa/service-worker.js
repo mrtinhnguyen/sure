@@ -1,7 +1,7 @@
 const CACHE_VERSION = 'v1';
 const OFFLINE_ASSETS = [
   '/offline.html',
-  '/logo-offline.svg'
+  'https://res.cloudinary.com/dlrqtr4gs/image/upload/v1766817897/akai-icon_glfe1g.png'
 ];
 
 // Install event - cache the offline page and assets

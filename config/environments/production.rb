@@ -38,8 +38,14 @@ Rails.application.configure do
 
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil
-  # config.action_cable.url = "wss://example.com/cable"
-  # config.action_cable.allowed_request_origins = [ "http://example.com", /http:\/\/example.*/ ]
+  # Configure Action Cable for Render
+  if ENV["HOST"].present?
+    config.action_cable.url = "wss://#{ENV['HOST']}/cable"
+    config.action_cable.allowed_request_origins = [
+      "https://#{ENV['HOST']}",
+      /https:\/\/.*\.#{ENV['HOST'].gsub(/^[^.]+\./, '')}/
+    ]
+  end
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   config.force_ssl = ActiveModel::Type::Boolean.new.cast(ENV.fetch("RAILS_FORCE_SSL", true))

@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+# Script to generate Rails master key if missing
+
+set -e
+
+MASTER_KEY_FILE="config/master.key"
+CREDENTIALS_FILE="config/credentials.yml.enc"
+
+echo "🔑 Rails Master Key Generator"
+echo ""
+
+# Check if master.key already exists
+if [ -f "$MASTER_KEY_FILE" ]; then
+  echo "✅ Master key already exists at $MASTER_KEY_FILE"
+  echo ""
+  echo "Current master key:"
+  cat "$MASTER_KEY_FILE"
+  echo ""
+  echo "Copy this value to Render Environment Variables as RAILS_MASTER_KEY"
+  exit 0
+fi
+
+# Check if credentials.yml.enc exists
+if [ -f "$CREDENTIALS_FILE" ]; then
+  echo "⚠️  Warning: $CREDENTIALS_FILE exists but $MASTER_KEY_FILE is missing!"
+  echo ""
+  echo "You have two options:"
+  echo "1. If you remember the old master key, create the file manually:"
+  echo "   echo 'your_old_key' > config/master.key"
+  echo ""
+  echo "2. If you don't remember, you'll need to recreate credentials:"
+  echo "   rails credentials:edit"
+  echo ""
+  echo "   This will create a new master.key file, but you'll lose existing encrypted data."
+  exit 1
+fi
+
+# Generate new master key
+echo "Generating new master key..."
+MASTER_KEY=$(openssl rand -hex 32)
+
+# Save to file
+echo "$MASTER_KEY" > "$MASTER_KEY_FILE"
+chmod 600 "$MASTER_KEY_FILE"
+
+echo "✅ Master key generated successfully!"
+echo ""
+echo "Master key:"
+echo "$MASTER_KEY"
+echo ""
+echo "📋 Next steps:"
+echo "1. Copy the master key above"
+echo "2. Add it to Render Environment Variables:"
+echo "   - Key: RAILS_MASTER_KEY"
+echo "   - Value: (paste the key above)"
+echo "3. Add it to both sure-web and sure-worker services"
+echo ""
+echo "⚠️  Important: Keep this key secret! Never commit it to git."
+echo "   (It's already in .gitignore)"
